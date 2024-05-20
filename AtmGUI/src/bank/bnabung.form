@@ -114,7 +114,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="24" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="nominal yang ditabung: "/>
+            <Property name="text" type="java.lang.String" value="saldo anda saat ini:"/>
           </Properties>
         </Component>
         <Container class="javax.swing.JPanel" name="jPanel3">
@@ -145,7 +145,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="24" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="saldo anda saat ini:"/>
+            <Property name="text" type="java.lang.String" value="nominal yang ditabung:"/>
           </Properties>
         </Component>
         <Container class="javax.swing.JPanel" name="jPanel2">

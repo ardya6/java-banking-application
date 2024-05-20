@@ -61,7 +61,7 @@ public class transfer extends javax.swing.JFrame {
         setPreferredSize(new java.awt.Dimension(1280, 720));
         getContentPane().setLayout(null);
 
-        bank.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        bank.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         bank.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "bank BCA", "bank BRI", "bank Mandiri", "bank syariah" }));
         bank.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -120,7 +120,7 @@ public class transfer extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 153, 51));
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton1.setText("TRANSFER");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

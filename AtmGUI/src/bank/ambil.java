@@ -35,10 +35,10 @@ BANK Bank = new BANK();
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
@@ -46,11 +46,6 @@ BANK Bank = new BANK();
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(null);
-
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel1.setText("masukan nominal yang ingin diambil :");
-        jPanel1.add(jLabel1);
-        jLabel1.setBounds(361, 210, 610, 90);
 
         jTextField2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -63,27 +58,37 @@ BANK Bank = new BANK();
 
         jPanel2.setBackground(new java.awt.Color(255, 153, 0));
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jButton1.setText("ambil");
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jButton1.setText("Ambil");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel1.setText("masukan nominal yang ingin diambil :");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(407, Short.MAX_VALUE)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(325, 325, 325))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap(191, Short.MAX_VALUE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 610, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(169, 169, 169))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(347, 347, 347))))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(269, Short.MAX_VALUE)
+                .addGap(42, 42, 42)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 137, Short.MAX_VALUE)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(95, 95, 95))
         );
@@ -141,10 +146,10 @@ BANK Bank = new BANK();
       Bank.setMasukan(Integer.parseInt(jTextField2.getText()));
       jTextField2.setText("silahkan menuju halaman bukti transaksi");
       JOptionPane.showMessageDialog(rootPane,"apa anda yakin akan melakukan transaksi sebesar: " + Bank.getMasukan());
-        Bank.setSaldo(Bank.getHasil());
-        Bank.setHasil(Bank.getSaldo() - Bank.getMasukan()); 
-        Bank.setAnswer(String.format(" %,.2f ", Bank.getHasil()));
-        jTextField1.setText(Bank.getAnswer());
+        Bank.setHasil(Bank.getSaldo() - Bank.getMasukan());
+            Bank.setSaldo(Bank.getHasil());
+            Bank.setAnswer(String.format(" %,.2f ", Bank.getHasil()));
+        //jTextField1.setText(Bank.getAnswer());
         //String jumlah = Bank.getAnswer();
         //bambil BA = new bambil(jumlah);
         //BA.setVisible(true);

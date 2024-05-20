@@ -31,6 +31,7 @@ public class login extends javax.swing.JFrame {
     private void initComponents() {
 
         btnCancel = new javax.swing.JButton();
+        buttonGroup1 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
@@ -59,7 +60,7 @@ public class login extends javax.swing.JFrame {
         jPanel1.add(jLabel3);
         jLabel3.setBounds(530, 150, 330, 53);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setText("Username:");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(340, 260, 130, 50);
@@ -77,6 +78,7 @@ public class login extends javax.swing.JFrame {
         jPanel1.add(vpassword);
         vpassword.setBounds(480, 350, 520, 56);
 
+        btnLogin.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,10 +88,10 @@ public class login extends javax.swing.JFrame {
         jPanel1.add(btnLogin);
         btnLogin.setBounds(480, 440, 370, 70);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel2.setText("Password:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(350, 350, 100, 60);
+        jLabel2.setBounds(340, 350, 130, 60);
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/LOGO.png"))); // NOI18N
         jPanel1.add(jLabel5);
@@ -182,6 +184,7 @@ public class login extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCancel;
     private javax.swing.JButton btnLogin;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

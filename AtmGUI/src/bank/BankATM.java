@@ -182,7 +182,7 @@ public class BankATM extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnKeluar);
-        btnKeluar.setBounds(70, 550, 450, 60);
+        btnKeluar.setBounds(60, 570, 450, 60);
 
         btnAmbil.setBackground(new java.awt.Color(255, 153, 0));
         btnAmbil.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N

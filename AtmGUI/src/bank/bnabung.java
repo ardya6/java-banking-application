@@ -71,7 +71,7 @@ String Njumlah;
         jTextField2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel2.setText("nominal yang ditabung: ");
+        jLabel2.setText("saldo anda saat ini:");
 
         jPanel3.setBackground(new java.awt.Color(255, 153, 0));
         jPanel3.setPreferredSize(new java.awt.Dimension(0, 3));
@@ -88,7 +88,7 @@ String Njumlah;
         );
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel3.setText("saldo anda saat ini:");
+        jLabel3.setText("nominal yang ditabung:");
 
         jPanel2.setBackground(new java.awt.Color(255, 153, 0));
         jPanel2.setPreferredSize(new java.awt.Dimension(0, 3));
