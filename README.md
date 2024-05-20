@@ -1,10 +1,6 @@
 
-Berikut ini adalah tujuan utama dari modifikasi aplikasi Bank Sinergi:
-
-1.	Untuk mengidentifikasi faktor-faktor utama yang mempengaruhi kebutuhan untuk memodifikasi aplikasi Bank Sinergi.
-2.	Untuk merumuskan masalah apa saja yang terdapat pada aplikasi Bank Sinergi.
-3.	Untuk mengidentifikasi perubahan-perubahan yang diimplementasikan dalam aplikasi Bank Sinergi.
-4.	Untuk mengetahui langkah-langkah atau cara yang efektif untuk memodifikasi aplikasi Bank Sinergi dengan menggunakan bahasa pemrograman Java.
+Tujuan dan maksud:
+Aplikasi Bank Sinergi merupakan aplikasi bank yang memungkinkan pengguna untuk bisa melakukan transaksi pembayaran didalamnya, seperti transfer, menabung, dan lainnya. Faktor utama yang mendorong kami untuk memodifikasi aplikasi bank ini adalah kurangnya fitur dan tata letak yang kurang sesuai dengan kebutuhan pengguna. Tujuan dari modifikasi ini adalah untuk meningkatkan fungsionalitas dan pengalaman pengguna melalui penambahan fitur yang lebih baik dan penyempurnaan tata letak. Modifikasi ini didasarkan pada kebutuhan pengguna untuk berinovasi dan memberikan layanan yang lebih baik kepada pengguna di era digital saat ini.
  
 Sumber Code dan Modifikasi:
 Aplikasi Bank Sinergi dimodifikasi berdasarkan source code yang diperoleh dari:
