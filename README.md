@@ -32,15 +32,15 @@ Bagian ini ditampilkan pada halaman baru setelah memasukkan saldo. Halaman ini m
 2.	Perubahan ukuran dan tata letak 
 a.	Perubahan ukuran layar desktop dari persegi ke persegi panjang
 b.	Halaman pop up diubah menjadi halaman sendiri/baru
-•	Pada halaman menu dibagian “Transfer” dan “Nabung” yang awalnya berupa halaman pop up diubah menjadi halaman sendiri/baru berupa layar desktop.
-•	Bagian ini pada awalnya hanya berupa pop up berisi tulisan “Masukkan saldo anda:….”. Namun kami ubah ke halaman baru
+c.	Pada halaman menu dibagian “Transfer” dan “Nabung” yang awalnya berupa halaman pop up diubah menjadi halaman sendiri/baru berupa layar desktop.
+d.	Bagian ini pada awalnya hanya berupa pop up berisi tulisan “Masukkan saldo anda:….”. Namun kami ubah ke halaman baru
 
 3.	Perbaikan desain halaman
 Setiap halaman sendiri (bukan pop up), akan ditampilkan layar dengan background warna dari desain kami sendiri. Selain itu, ditambahi juga dengan gambar logo bank disetiap halaman sendiri (bukan pop up).
 
 Proyek ini merupakan tugas mata kuliah Pemrograman Berorientasi Objek (PBO) yang dibimbing oleh Bapak I Gusti Lanang Putra Eka Prismana, S. Kom., M.Kom.
 
-projek ini disusun oleh kelompok 6 yang beranggotakan :
+projek ini disusun oleh kelompok 8  yang beranggotakan :
 1.	Amaliya Izzah Ramadhani 	(23050974079)
 2.	Aisyah Lintang Z. A 			(23050974095)
 3.	Ardya Resita Pramesti C. C. A. 	(23050974103)
